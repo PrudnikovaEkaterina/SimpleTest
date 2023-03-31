@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class SimpleTest {
+public class SimpleTest extends TestBase{
     @DisplayName("Первый тест")
     @Test
     void  test (){
