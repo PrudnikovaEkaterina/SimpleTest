@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
-        System.setProperty("webdriver.chrome.driver", "C:\\path\\to\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars"); // disabling infobars
         options.addArguments("--disable-extensions"); // disabling extensions
